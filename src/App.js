@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Typography } from '@material-ui/core';
-import Header from './components/Header';
 import AddTweet from './components/AddTweet';
 import TweetCard from './components/TweetCard';
-import CardActions from '@material-ui/core/CardActions';
 import { withStyles } from '@material-ui/styles';
 
 const styles = theme => ({
